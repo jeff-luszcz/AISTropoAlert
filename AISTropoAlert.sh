@@ -41,7 +41,7 @@ MASTODON_TOKEN=replace_this_with_your_mastondon_token
 ############################################################
 
 # get the ist of ships from AIS-Catcher's JSON web api using curl, search the JSON for ships further away than X miles using jq, then sort and find further away ship
-ships=`curl -s $URL/ships.json  | jq --arg dist $DIST  '.ships[] | select(.distance>=($dist|tonumber)) | .distance' | sort -r | head -1 `
+ships=`curl -s $URL/ships.json  | jq --arg dist $DIST  '.ships[] | select(.distance>=($dist|tonumber)) | .distance' | sort -nr | head -1 `
 echo Furthest ship seen was $ships miles away further than $DIST miles away!
 
 # if we have any resuts, post an alert to Mastodon, otherwise do nothing
