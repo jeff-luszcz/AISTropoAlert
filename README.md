@@ -19,6 +19,8 @@ or other long distance propagation at VHF/UHF frequencies is ongoing. This is of
 
 See [https://en.wikipedia.org/wiki/Tropospheric_propagation](https://en.wikipedia.org/wiki/Tropospheric_propagation)
 
+An example Mastodon feed of output from this script for the Boston, MA, USA area can be found at https://mastodon.social/@AISTropoAlertBoston
+
 ### Requirements
 * This script requires the **curl** command line tool
 * This script requires the **jq** command line tool
