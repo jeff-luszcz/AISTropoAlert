@@ -2,10 +2,10 @@
 
 # AISTropoAlert script
 # Script to send a Mastodon alert when far away ships are seen
-# Copyright 2023 Jeffrey Luszcz
+# Copyright 2024 Jeffrey Luszcz
 # https://github.com/jeff-luszcz/AISTropoAlert
 # SPDX-License-Identifier: Apache License 2.0
-# version 1.0.0
+# version 1.0.1
 
 # This BASH script reads the input from a specific AIS-Catcher web server 
 # and checks to see if any reports are further than a user specified distance
